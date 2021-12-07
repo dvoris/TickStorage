@@ -9,8 +9,11 @@ using System.Diagnostics;
 
 namespace MyData
 {
+    // Test github
     public class TickStorage
     {
+        public int Version = 2;
+
         public string FileName;
 
         public SQLiteConnection _connection;
